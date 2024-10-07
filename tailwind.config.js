@@ -1,8 +1,12 @@
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // Verifica las rutas
+    "./src/App.tsx", // Archivo principal de tu aplicación
+    "./src/components/**/*.{js,ts,jsx,tsx}", // Todos los archivos en la carpeta components
   ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
   safelist: [
     "bg-purple-500",
     "text-white",
@@ -14,8 +18,4 @@ module.exports = {
     "rounded-full",
     "hover:bg-gray-800",
   ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 };
