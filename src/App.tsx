@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./index.css"; // O './App.css', según el nombre de tu archivo CSS
 import Header from "./components/Header";
 import Mascot from "./components/Mascot";
 import ActivityFetcher from "./components/ActicityFetcher";
