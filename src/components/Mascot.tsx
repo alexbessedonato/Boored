@@ -1,5 +1,5 @@
 import React from "react";
-import mascotImage from "../assets/boored_mascot.png"; // Asegúrate de que la ruta de la imagen es correcta
+import mascotImage from "../assets/boored"; // Asegúrate de que la ruta de la imagen es correcta
 import ToggleButtons from "./ToggleButtons"; // Importa el componente de botones
 
 interface MascotProps {
