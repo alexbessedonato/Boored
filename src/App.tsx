@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Header from "./components/header_temp";
+import Header from "./components/Header";
 import Mascot from "./components/Mascot";
 import ActivityFetcher from "./components/ActicityFetcher";
 
