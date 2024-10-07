@@ -9,7 +9,7 @@ export default defineConfig({
       "/api": {
         target: "https://bored-api.appbrewery.com", // API de destino
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
+        rewrite: (path: string) => path.replace(/^\/api/, ""),
       },
     },
   },
