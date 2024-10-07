@@ -1,7 +1,5 @@
 import React from "react";
 import booredLogo from "../assets/boored_logo.png"; // Asegúrate de que la ruta es correcta
-import mascotImage from "../assets/boored_mascot.png"; // Asegúrate de que la ruta de la imagen es correcta
-
 const Header: React.FC = () => {
   return (
     <header className="w-full bg-white p-4">
